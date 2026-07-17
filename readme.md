@@ -2,6 +2,11 @@
 
 Un pequeño script en JavaScript que analiza un rebaño mixto y cuenta cuántas ovejas han sobrevivido a la presencia de los lobos. Proyecto desarrollado para el módulo **Frontend: Javascript & APIs** de **JM Factoria**.
 
+
+# Github Pages
+
+[Enlace a GitHub Pages](https://wfhgdev.github.io/CountingSheeps/)
+
 ## 📋 Descripción del Reto
 
 La función recibe una lista de valores booleanos (`list`) donde:
@@ -34,8 +39,9 @@ El código está diseñado y testeado para cubrir los siguientes escenarios obli
 *   **Output esperado (Console):** 
     `UPS!!! Wolfs eaten Sheeps`
 
----
-``` --- Ejecución de las pruebas ---
+### Ejecución de las pruebas
+
+```
 const list1 = [ true, true, true, false, true, true, true, true, true, false, true, false, true, false, false, true, true, true, true, true, false, false, true, true ];
 const list2 = [ false, false, false ];
 
