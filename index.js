@@ -16,10 +16,11 @@ function countSheeps(list) {
 const list1 = [ true, true, true, false, true, true, true, true , true, false, true, false, true, false, false, true , true, true, true, true , false, false, true, true];
 const list2 = [ false, false, false];
 
-console.log('hola mundo');
 console.log("Lista 1:", list1);
 console.log("Lista 2:", list2);
 console.log(countSheeps(list1));
 console.log(countSheeps(list2));
-// document.getElementById("sheepsCountResult").innerHTML = 'There are ' + countSheeps(list1) +' sheeps alive in list1';
-// document.getElementById("sheepsCountResult").innerHTML += "<br>" + 'UPS!!! Wolfs eaten all Sheeps in list 2: ';
+document.getElementById("showList1").innerHTML = "Lista 1: " + list1;
+document.getElementById("showList2").innerHTML = "Lista 2: " + list2;
+document.getElementById("list1Result").innerHTML = countSheeps(list1) + ' in list 1';
+document.getElementById("list2Result").innerHTML = countSheeps(list2) + ' in list 2';
